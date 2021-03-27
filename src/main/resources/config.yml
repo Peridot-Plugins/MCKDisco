@@ -1,0 +1,49 @@
+messages:
+  noperm:
+    title:
+      enabled: true
+      content: '&8» &c&lBlad'
+      sub-content: '&8» &7Nie posiadasz uprawnien!'
+      fade-in: 10
+      stay: 40
+      fade-out: 10
+  disableeffect:
+    actionbar:
+      enabled: true
+      content: '&8» &7Wylaczyles efekt disco zbroi!'
+  selecteffect:
+    actionbar:
+      enabled: true
+      content: '&8» &7Wybrales efekt: &2{EFFECT}'
+  effects:
+    random: 'RANDOM'
+    smooth: 'SMOOTH'
+    police: 'POLICE'
+    gray: 'GRAY'
+inventory:
+  title: '&8» &7Tryb Disco Zbroi'
+  buttons:
+    disable:
+      material: PAPER
+      name: '&8» &7Wylacz disco zbroje'
+    random:
+      material: PAPER
+      name: '&8» &2RANDOM'
+      lore:
+        - '&8» &7Losowe kolory na zbroi'
+    smooth:
+      material: PAPER
+      name: '&8» &2SMOOTH'
+      lore:
+        - '&8» &7Plynne przechodzenie kolorow'
+    police:
+      material: PAPER
+      name: '&8» &2POLICE'
+      lore:
+        - '&8» &7Plynne przechodzenie z czerwonego do niebieskiego i na odwrot'
+    gray:
+      material: PAPER
+      name: '&8» &2GRAY'
+      lore:
+        - '&8» &7Przechodzenie kolorow pomiedzy odcieniami szarosci'
+police-smooth: true
